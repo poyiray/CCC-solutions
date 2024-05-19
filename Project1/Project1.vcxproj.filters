@@ -657,6 +657,9 @@
     <ClCompile Include="CCC %2708 J4 - From Prefix to Postfix.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2797 S3 - Double Knockout Competition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
