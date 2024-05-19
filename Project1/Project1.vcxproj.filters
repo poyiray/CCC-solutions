@@ -660,6 +660,9 @@
     <ClCompile Include="CCC %2797 S3 - Double Knockout Competition.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2721 S3 - Lunch Concert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
