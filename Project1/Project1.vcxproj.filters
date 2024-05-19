@@ -663,9 +663,4 @@
       <Filter>源文件</Filter>
     </Text>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="readme.md">
-      <Filter>源文件</Filter>
-    </None>
-  </ItemGroup>
 </Project>
