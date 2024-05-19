@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Senior">
+      <UniqueIdentifier>{dc61539b-01b1-4901-8ecb-7e7344a3a1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Junior">
+      <UniqueIdentifier>{2eb93ce7-2ac8-41ca-9e4b-fad37fc407d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCC %2701 S1 - Keeping Score.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2701 S2 - Spirals.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2700 S1 - Slot Machines.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC 02 S3 - Blindfold.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2722 S2 - Good Groups.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC 23 S1 - Trianglane.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC S2 Multiple Choice.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC S5 - Sheep and Coyotes.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2700 J2 - 9966.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2701 J1 - Dressing Up.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC 01 J2 - Mod Inverse.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2702 J1 - 0123456789.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2703 J1 - Trident.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2705 J1 - The Cell Sell.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2718 J2 - Occupy parking.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2718 J3 - Are we there yet.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2720 J1 - Dog Treats.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2721 J4 - Arranging Books.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2722 J1 - Cupcake Party.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2722 J2 - Fergusonball Ratings.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC 23 J1 - Deliv-e-droid.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC 23 J2 - Chili Peppers.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC 23 J3 - Special Event.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC 23 J5 - CCC Word Hunt.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC J1 - Calendar.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2721 S1 - Crazy Fencing.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="Mock CCC 24 Contest 1 - Magical Magnetic Marbles.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="Mock CCC 24 Contest 1 J2 - Simple Elo Rating System.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="Mock CCC 24 Contest 1 J3 - RGB Words.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2711 J2 - Who Has Seen The Wind.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2706 J2 - Roll the Dice.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2706 J1 - Canadian Calorie Counting.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2705 J4 - Cross Spiral.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2705 J2 - RSA Numbers.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2704 J4 - Simple Encryption.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2704 J2 - Terms of Office.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2704 J1 - Squares.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2700 S2 - Babbling Brooks.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2702 S1 - The Students%27 Council Breakfast.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2705 S1 - Snow Calls.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2705 S2 - Mouse Move.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2702 S2 - Fraction Action.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2703 S2 - Poetry.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2702 S3 - Blindfold method2.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2703 S1 - Snakes and Ladders.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2704 S1 - Fix.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2702 J2 - AmeriCanadian.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2703 J2 - Picture Perfect.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2709 J4 - Signage.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2709 S2 - Lights Going On and Off.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2706 J5 - CCC Othello.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2711 J4 - Boring Business.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2704 S2 - TopYodeller.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2706 S1 - Maternity.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2715 J1 - Special Day.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2715 J2 - Happy or Sad.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2715 J5 - π-day.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2715 J3 - Rövarspråket.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2716 J1 - Tournament Selection.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2716 J2 - Magic Squares.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2716 J3 - Hidden Palindrome.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2716 J4 - Arrival Time.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2717 J1 - Quadrant Selection.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2717 J2 - Shifty Sum.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2717 J3 - Exactly Electrical.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2717 J4 - Favourite Times.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2719 J1 - Winning Score.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2719 J2 - Time to Decompress.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2719 J3 - Cold Compress.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2716 S2 - Tandem Bicycle.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2719 S1 - Flipper.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2707 J1 - Who is in the Middle.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2707 J2 - I Speak TXTMSG.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2710 J1 - What is n, Daddy.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2710 J2 - Up and Down.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2710 J3 - Punchy.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2710 J4 - Global Warming.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2714 J1 - Triangle Times.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2714 J2 - Vote Count.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2714 J3 - Double Dice.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2720 J2 - Epidemiology.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2720 J4 - Cyclic Shifts.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2720 J3 - Art.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2722 J5 - Square Pool.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2714 S3 - The Geneva Confection.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2714 S2 - Assigning Partners.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2714 S1 - Party Invitation.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2709 S3 - Degrees Of Separation.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2708 S3 - Maze.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2703 S3 - Floor Plan.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2701 S3 - Strategic Bombing.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2700 S3 - Surfing.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2703 S5 - Trucking Troubles.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2708 S1 - It%27s Cold Here!.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2720 S1 - Surmising a Sprinter%27s Speed.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2720 S2 - Escape Room_bfs.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2720 S2 - Escape Room_dfs.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2721 S2 - Modern Art.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2722 S2 - Good Groups c++.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2718 S3 - RoboThieves.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2718 S2 - Sunflowers.cpp">
+      <Filter>源文件\Senior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2710 J5 - Knight Hop.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2718 J5 - Choose your own path.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="1114. 棋盘问题.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="P1025 [NOIP2001 提高组] 数的划分.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="P1019 [NOIP2000 提高组] 单词接龙.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="Next Prime.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph Contest 1 P2 - Shortest Path.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="GFSSOC %2717 S1 - Path to Waterloo.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="DWITE %2711 R3 ABCA Maze.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="DWITE %2710 R3 - Forest Fires.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="DWITE %2709 R6 5 - Air Travel Planning.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="DWITE %2707 R2 - Floor Plan.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="DWITE %2707 R5 - Train ride.cpp">
+      <Filter>源文件\Junior</Filter>
+    </ClCompile>
+    <ClCompile Include="Canada Day Contest 2021 - CCC Bad Haha.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2709 S4 - Shop and Ship.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2712 S3 - Absolutely Acidic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2798 S5 - Mountain Passage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2713 S4 - Who is Taller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2721 S4 - Daily Commute.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HCI %2716 - Oversleep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DWITE %2708 R3 - Now in 3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="COCI %2706 Contest 1 Slikar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2700 P4 - Packet Routing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2715 S3 - Gates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2715 S4 - Convex Hull.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2711 J5 - Unfriend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2706 J4 - It%27s tough being a teen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2796 P5 - All Roads Lead Where.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VMSS %2715 - Frank and Roads.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VM7WC %2715 Gold - Chain Rule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VM7WC %2716 Gold - Hello, Officer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VM7WC %2716 Gold - Cold War Telecom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DWITE %2710 R5 - Cube World.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WC %2718 Contest 4 S1 - World of StarCraft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="A Noisy Class.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2710 S4 - Animal Farm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2724 S4 - Painting Roads.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2711 S3 - Alice Through the Looking Glass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ICPC NAQ 2016 C - Big Truck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2700 S4 - Golf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2712 S5 - Mouse Journey.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2707 J5 - Keep on Truckin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2712 J2 - Sounds fishy!.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2711 J1 - Which Alien.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2708 J1 - Body Mass Index.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2708 J2 - Do the Shuffle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2796 P1 - Train Swapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2708 J3 - GPS Text Entry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2707 S1 - Federal Voting Age.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2715 S1 - Zero That Out.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2716 S1 - Ragaman.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCCHK %2715 J1 - Rock-paper-scissors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCCHK %2708 J1 - Best fish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCCHK %2708 J2 - Lucky Number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WC %2701 P8 - Time to Get Medieval.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IOI Walls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SMAC (Oct) - Digging for Gold.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulgarian OI %2709 P2 - Boxen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NOI %2797 P2 - Optimal Routing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2723 S4 - Minimum Cost Roads.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2707 P6 - Road Construction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2714 P2 - King Gruff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2700 P1 - Subsets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2707 S2 - Boxes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DWITE %2711 R2 - Portals Check.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mock CCO %2718 Contest 4 Problem 3 - Counterattack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2706 J3 - Cell-Phone Messaging.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2717 S1 - Sum Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2718 S1 - Voronoi Villages.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2796 S1 - Deficient, Perfect, and Abundant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2798 S1 - Censor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2708 S2 - Pennies in the Ring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2709 J2 - Old Fishin%27 Hole.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2709 S1 - Cool Numbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2713 S2 - Bridge Transport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2708 P4 - Herding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2708 P4 - Herding(并查集).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2702 P5 - Connect The Campus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2715 S2 - Jerseys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2799 S1 - Card Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2715 J4 - Wait Time.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2797 S2 - Nasty Numbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VM7WC %2716 Silver - Can Shahir even get there.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DMOPC %2715 Contest 3 P3 - Dimethylbenzene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2718 S2 Sunflowers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2719 S2 - Pretty Average Primes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2710 S2 - Huffman Encoding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2708 S4 - Twenty-four.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2710 S1 - Computer Purchase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2797 S4 - Dynamic Dictionary Coding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCCHK %2708 J3 - Phone Book.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2798 S2 - Cross Number Puzzle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCCHK %2715 J2 - What is the minimum area.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCCHK %2715 J4 - Where to build my house.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SAC %2722 Code Challenge 5 P2 - Querying Extensions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="The Cosmic Era P2 - Uneven Sand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TLE %2717 Contest 7 P3 - Countless Calculator Computations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2717 P1 - Vera and Trail Building.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2707 P2 - Snowflakes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2707 S4 - Waterpark.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2713 S3 - Chances of Winning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TLE %2717 Contest 5 P1 - Guess the Number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Guess the Sequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2715 P4 - Cars on Ice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2715 P1 - Hungry Fox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2712 S1 - Don%27t pass me the ball!.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2705 S4 - Pyramid Message Scheme.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WC %2796 P6 - Bases Multiplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2724 S3 - Swipe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2702 S4 - Bridge Crossing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="in.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="out.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
