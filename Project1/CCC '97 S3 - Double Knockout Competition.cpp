@@ -5,6 +5,7 @@ int m, n;
 
 int main()
 {
+	ios::sync_with_stdio(false); cin.tie(nullptr);
 	//freopen("out.txt", "w", stdout);
 	cin >> m;
 	while (m--)
@@ -27,7 +28,8 @@ int main()
 			}
 		}
 		cout << "Round " << cnt++ << ": " << ud << " undefeated, " << ol << " one-loss, " << el << " eliminated" << endl;
-		cout << "There are " << cnt - 1 << " rounds." << endl << endl;
+		cout << "There are " << cnt - 1 << " rounds." << endl;
+		if (m) cout << endl;
 	}
 
 	return 0;
