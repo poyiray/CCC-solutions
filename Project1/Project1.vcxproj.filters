@@ -666,6 +666,9 @@
     <ClCompile Include="CCC %2796 S2 - Divisibility by 11.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2796 S3 - Pattern Generator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
