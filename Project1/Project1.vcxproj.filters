@@ -657,6 +657,15 @@
     <ClCompile Include="CCC %2721 S1 - Crazy Fencing.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCCHK %2708 J4 - Tic-tac-toe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2796 S5 - Maximum Distance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2796 S2 - Divisibility by 11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
