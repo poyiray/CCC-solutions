@@ -669,6 +669,9 @@
     <ClCompile Include="CCC %2796 S3 - Pattern Generator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2707 S5 - Bowling for Numbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
