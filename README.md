@@ -1,6 +1,6 @@
 # ccc solutions
 
-Too lazy to organize the files, but I'm sure it has most of the solutions for junior and the senior questions. 
+Too lazy to organize the files, but I'm sure it has most of the solutions for junior and the senior questions. Also missed some of the junior questions, beacause I didn't save it after when I finished writing it.
 
 _There is no guarantee that all solutions will work, some problems may be unresolved, but the file is too messy for me to find out._
 
