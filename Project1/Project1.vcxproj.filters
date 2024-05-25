@@ -681,6 +681,9 @@
     <ClCompile Include="CCC %2798 S3 - Mars Rover.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2723 S2 - Symmetric Mountains.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
