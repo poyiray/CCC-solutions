@@ -684,6 +684,9 @@
     <ClCompile Include="CCC %2723 S2 - Symmetric Mountains.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2701 S5 - Post%27s Correspondence Problem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
