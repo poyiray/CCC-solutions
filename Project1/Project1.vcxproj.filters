@@ -693,6 +693,12 @@
     <ClCompile Include="CCC %2718 S5 - Maximum Strategic Savings.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2708 S5 - Nukit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2716 S5 - Circle of Life.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
