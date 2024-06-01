@@ -699,6 +699,9 @@
     <ClCompile Include="CCC %2716 S5 - Circle of Life.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2704 S5 - Super Plumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
