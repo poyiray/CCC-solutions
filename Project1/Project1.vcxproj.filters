@@ -702,6 +702,9 @@
     <ClCompile Include="CCC %2704 S5 - Super Plumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCO %2717 P5 - Professional Network.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
