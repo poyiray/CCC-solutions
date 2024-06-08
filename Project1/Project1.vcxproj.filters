@@ -720,6 +720,12 @@
     <ClCompile Include="CCC %2709 S5 - Wireless.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Binary Indexed Tree Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2701 P1 - The Monkey Dance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">

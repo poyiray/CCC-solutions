@@ -3,7 +3,7 @@ using namespace std;
 
 //主要想法是2维圆形的差分不好做，可以考虑用映射来转换为1维差分
 const int N = 3e7 + 10;
-int d[N], n, m, k, arr[100000];
+int d[N], n, m, k;
 
 inline int rd()
 {
@@ -12,14 +12,6 @@ inline int rd()
 	while (ch >= '0' && ch <= '9')
 		x = x * 10 + ch - '0', ch = getchar();
 	return x;
-}
-
-
-inline int idx(int i, int j)
-{
-	//边界的判断
-	j = max(1, j); j = min(j, m + 1);
-	return m * (i - 1) + j;
 }
 
 int main()
@@ -31,27 +23,25 @@ int main()
 	{
 		int y = rd(), x = rd(), r = rd(), b = rd();
 
-		int cnt = 0;
-		for (int i = 1; i <= r; i++) arr[++cnt] = sqrt(r * r - i * i);
-
 		for (int i = 1; i <= r; i++)
 		{
 			if (x - i < 1) break;
-			int len = arr[i];
-			d[idx(x - i, y - len)] += b;
-			d[idx(x - i, y + len + 1)] -= b;
+			int len = sqrt(r * r - i * i), row = (x - i - 1) * m;
+			d[row + max(1, y - len)] += b;
+			d[row + min(m + 1, y + len + 1)] -= b;
 		}
 
 		for (int i = 1; i <= r; i++)
 		{
 			if (x + i > n) break;
-			int len = arr[i];
-			d[idx(x + i, y - len)] += b;
-			d[idx(x + i, y + len + 1)] -= b;
+			int len = sqrt(r * r - i * i), row = (x + i - 1) * m;
+			d[row + max(1, y - len)] += b;
+			d[row + min(m + 1, y + len + 1)] -= b;
 		}
 		
-		d[idx(x, y - r)] += b;
-		d[idx(x, y + r + 1)] -= b;
+		int row = (x - 1) * m;
+		d[row + max(1, y - r)] += b;
+		d[row + min(m + 1, y + r + 1)] -= b;
 	}
 
 	for (int i = 1; i <= n * m; i++) d[i] += d[i - 1];
