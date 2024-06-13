@@ -1,80 +1,49 @@
 #include <bits/stdc++.h>
-#include<math.h>
-#include <iomanip>
 using namespace std;
 
-struct Sheep
-{
-	long double x[100];
-	long double y[100];
-};
+#define double long double
+struct node { double x, y; };
+const int N = 1010;
+node pos[N];
+bool res[N];
+int n;
 
-struct Wolf
+double cul(double x1, double y1, double x2, double y2)
 {
-	long double y[100];
-	long double x[100];
-	long double distance[100];
-};
+	return sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+}
 
 int main()
 {
-	int num = 6;
-	cin >> num;
-	Sheep sheep;
-	Wolf wolf[1005];
-	int index[1005] = { 0 };
-	int time = 0;
-	for (int i = 0; i < num; i++)
+	cin >> n;
+	for (int i = 1; i <= n; i++) cin >> pos[i].x >> pos[i].y;
+	for (int i = 1; i <= n; i++)
 	{
-		cin >> sheep.x[i] >> sheep.y[i];
+		pos[i].x *= 10000;
+		pos[i].y *= 10000;
 	}
 
-	for (int i = 0; i < 1000; i++)
+	for (double i = 0; i <= 10000000; i += 100)
 	{
-		for (int j = 0; j < num; j++)
+		int idx = 0;
+		double minn = INT_MAX;
+		for (int j = 1; j <= n; j++)
 		{
-			wolf[i].x[j] = sheep.x[j];
-			wolf[i].y[j] = sheep.y[j];
-			wolf[i].distance[j] = (sqrt(pow(i - sheep.x[j], 2) + pow(0 - sheep.y[j], 2)));
-		}
-	}
-
-
-	for (int i = 0; i < 1000; i++)
-	{
-		float temp = wolf[i].distance[0];
-		index[time] = 0;
-		for (int j = 1; j < num; j++)
-		{
-
-			if (wolf[i].distance[j] < temp)
+			double dis = cul(pos[j].x, pos[j].y, i, 0.0);
+			if (dis < minn)
 			{
-				index[time] = j;
-				temp = wolf[i].distance[j];
-			}
-
-		}
-
-		time++;
-
-	}
-
-	for (int i = 0; i < 1000; i++)
-	{
-		for (int j = i; j < 1000; j++)
-		{
-			if (index[i] == index[j + 1])
-			{
-				index[j + 1] = -1;
+				minn = dis;
+				idx = j;
 			}
 		}
+		res[idx] = 1;
 	}
 
-	for (int i = 0; i < 1000; i++)
+	for (int i = 1; i <= n; i++)
 	{
-		if (index[i] != -1)
+		if (res[i])
 		{
-			cout << fixed << setprecision(2) << "The sheep at (" << noshowpoint << sheep.x[index[i]] << ", " << noshowpoint << sheep.y[index[i]] << ") might be eaten." << endl;
+			cout << fixed << setprecision(2) << "The sheep at (" << pos[i].x / 10000 << ", " << pos[i].y / 10000 << ") might be eaten.\n";
 		}
 	}
 

@@ -744,6 +744,9 @@
     <ClCompile Include="CCC %2799 S4 - A Knightly Pursuit.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2799 S5 - Letter Arithmetic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
