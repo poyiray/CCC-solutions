@@ -726,6 +726,24 @@
     <ClCompile Include="CCO %2701 P1 - The Monkey Dance.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Educational DP Contest AtCoder H - Grid 1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Educational DP Contest AtCoder F - LCS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2724 P1 - Treasure Hunt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="coin change(dp).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Educational DP Contest AtCoder G - Longest Path.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2799 S4 - A Knightly Pursuit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
