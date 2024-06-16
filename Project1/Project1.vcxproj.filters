@@ -747,6 +747,18 @@
     <ClCompile Include="CCC %2799 S5 - Letter Arithmetic.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2713 S5 - Factor Solitaire.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleships (dmoj).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2715 P2 - Artskjid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2710 P3 - Wowow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
