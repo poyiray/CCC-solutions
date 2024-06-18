@@ -1,65 +1,56 @@
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
-struct node 
-{ 
-	int v; ll c;
-	bool operator>(const node &n) const
+char *p1, *p2, buf[10000000];
+#define nc() (p1==p2 && (p2=(p1=buf)+fread(buf,1,100000,stdin),p1==p2)?EOF:*p1++)
+int rd()
+{
+	int x = 0; char ch = nc();
+	while (ch < 48 || ch>57) ch = nc();
+	while (ch >= 48 && ch <= 57) x = x * 10 + ch - 48, ch = nc();
+	return x;
+}
+
+struct node
+{
+	int u, w;
+	bool operator<(const node &n) const
 	{
-		return c > n.c;
+		return w < n.w;
 	}
 };
-const int N = 1e6 + 10, INF = 0x3f3f3f3f;
-int n, m; 
-ll dis[N], val[N];
-bool vis[N];
+const int N = 1e6 + 10;
+int n, m, a[N];
 vector<node> e[N];
-
-ll dj(int x)
-{
-	fill(dis + 1, dis + n + 1, INF);
-	fill(vis + 1, vis + n + 1, 0);
-	priority_queue<node, vector<node>, greater<node>> q;
-	ll res = val[x];
-	q.push({ x,0 });
-	dis[x] = 0;
-	while (q.size())
-	{
-		int u = q.top().v; q.pop();
-		if (vis[u]) continue;
-		vis[u] = 1;
-		for (auto &y  : e[u])
-		{
-			int v = y.v, c = y.c;
-			if (!vis[v] && dis[u] + c < dis[v])
-			{
-				dis[v] = dis[u] + c;
-				res = max(res, val[v] - dis[v]);
-				q.push({ v,dis[v] });
-			}
-		}
-	}
-	return res;
-}
 
 int main()
 {
-	freopen("out.txt", "w", stdout);
 	ios::sync_with_stdio(false); cin.tie(nullptr);
-	cin >> n >> m;
-	for (int i = 1; i <= n; i++) cin >> val[i];
+	n = rd(), m = rd();
+	for (int i = 1; i <= n; i++) a[i] = rd();
 
 	while (m--)
 	{
-		int u, v; ll c; cin >> u >> v >> c;
-		e[u].push_back({ v,c });
-		e[v].push_back({ u,c });
+		int u = rd(), v = rd(), w = rd();
+		e[u].push_back({ v,w });
+		e[v].push_back({ u,w });
 	}
 
-	for (int i = 1; i <= n; i++)
+	priority_queue<node> q;
+	for (int i = 1; i <= n; i++) q.push({ i, a[i] });
+	while (q.size())
 	{
-		cout << dj(i) << '\n';
+		auto[u, d] = q.top(); q.pop();
+		if (d < a[u]) continue;
+		for (auto &[v, w] : e[u])
+		{
+			if (a[u] - w > a[v])
+			{
+				a[v] = a[u] - w;
+				q.push({ v, a[v] });
+			}
+		}
 	}
+	for (int i = 1; i <= n; i++) cout << a[i] << '\n';
 
 	return 0;
 }

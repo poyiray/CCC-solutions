@@ -759,6 +759,9 @@
     <ClCompile Include="CCO %2710 P3 - Wowow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="IOI %2714 Practice Task 1 - Square.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
