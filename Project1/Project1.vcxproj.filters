@@ -765,6 +765,12 @@
     <ClCompile Include="A Math Contest P3 - LIS Reconstruction.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCO %2708 P5 - Candy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DWITE %2710 R5 3 - Balancing Act.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
