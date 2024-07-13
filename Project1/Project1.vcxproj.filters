@@ -768,6 +768,15 @@
     <ClCompile Include="CCO %2714 P1 - Troyangles.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCO %2710 P4 - Computer Purchase Return.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Search Tree Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2720 S4 - Swapping Seats.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
