@@ -768,16 +768,13 @@
     <ClCompile Include="CCO %2714 P1 - Troyangles.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DWITE %2710 R5 3 - Balancing Act.cpp">
+    <ClCompile Include="CCO %2710 P4 - Computer Purchase Return.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CCO %2708 P5 - Candy.cpp">
+    <ClCompile Include="Binary Search Tree Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="P1909 [NOIP2016 普及组] 买铅笔.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="P2010 [NOIP2016 普及组] 回文日期.cpp">
+    <ClCompile Include="CCC %2720 S4 - Swapping Seats.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
