@@ -789,6 +789,9 @@
     <ClCompile Include="P2010 [NOIP2016 普及组] 回文日期.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2710 S3 - Firehose.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
