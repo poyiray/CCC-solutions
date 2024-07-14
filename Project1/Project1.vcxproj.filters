@@ -777,6 +777,15 @@
     <ClCompile Include="CCC %2720 S4 - Swapping Seats.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DWITE %2710 R5 3 - Balancing Act.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2708 P5 - Candy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2710 S3 - Firehose.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
