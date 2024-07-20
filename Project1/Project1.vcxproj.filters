@@ -795,6 +795,9 @@
     <ClCompile Include="CCO %2797 P2 - Alien Invasion.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2723 S3 - Palindromic Poster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
