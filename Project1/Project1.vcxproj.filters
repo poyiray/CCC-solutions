@@ -798,9 +798,6 @@
     <ClCompile Include="CCC %2723 S3 - Palindromic Poster.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CCC %2797 S5 - Long Division.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
