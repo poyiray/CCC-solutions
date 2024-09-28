@@ -798,6 +798,36 @@
     <ClCompile Include="CCC %2723 S3 - Palindromic Poster.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2719 S3 - Arithmetic Square.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2797 S5 - Long Division.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2711 S5 - Switch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2714 S5 - Lazy Fox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2007 提高组] 矩阵取数游戏.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NOIP %2708 P3 - Message Passing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2714 S4 - Tinted Glass Window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2722 S4 - Good Triplets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2702 S5 - Follow the Bouncing Ball.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2706 S5 - Origin of Life.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">

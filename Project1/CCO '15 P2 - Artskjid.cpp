@@ -1,35 +1,40 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct node { int u, d; };
-const int N = 400;
-int f[N], in[N], n, m;
-vector<node> e[N];
-
-int main()
+#define int long long
+struct node
 {
-	cin >> n >> m;
-	while (m--)
-	{
-		int u, v, d; cin >> u >> v >> d;
-		e[u].push_back({ v,d });
-		in[v]++;
-		
-	}
+	int v, w;
+};
+const int N = 2 << 19, M = 20;
+int f[N][M], n, m, res;
+vector<node> e[M];
 
-	queue<int> q;
-	q.push(0);
-	while (q.size())
+signed main()
+{
+	memset(f, -1, sizeof f);
+	cin >> n >> m;
+	for (int i = 1; i <= m; i++)
 	{
-		int u = q.front(); q.pop();
-		for (auto x : e[u])
+		int u, v, w; cin >> u >> v >> w;
+		e[u].push_back({ v,w });
+	}
+	f[(1 << n) - 1][n - 1] = 0;
+	for (int i = (1 << n) - 1; i >= 0; i--)
+	{
+		for (int u = 0; u < n; u++)
 		{
-			int v = x.u, d = x.d;
-			f[v] = max(f[v], f[u] + d);
-			if (!--in[v]) q.push(v);
+			for (auto[v, w] : e[u])
+			{
+				if (!(i >> v & 1) && f[i | 1 << v][v] != -1)
+				{
+					f[i][u] = max(f[i][u], f[i | 1 << v][v] + w);
+				}
+			}
 		}
 	}
-	cout << f[n - 1];
+	for (int i = 0; i < (1 << n); i++) res = max(res, f[i][0]);
+	cout << res;
 
 	return 0;
 }
