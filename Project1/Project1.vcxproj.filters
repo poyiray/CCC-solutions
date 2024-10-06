@@ -828,6 +828,9 @@
     <ClCompile Include="CCC %2706 S5 - Origin of Life.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2717 S4 - Minimum Cost Flow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">

@@ -62,7 +62,7 @@ void god()
 void bfs()
 {
 	queue<pair<int, int>> q;
-	for (int i = 0; i <= (1 << (n * m)) - 1; i++) if (!vis[i]) q.push({i, 0});
+	for (int i = 0; i <= (1 << (n * m)) - 1; i++) if (!vis[i]) q.push({ i, 0 });
 	while (q.size())
 	{
 		int x = q.front().first, d = q.front().second; q.pop();
