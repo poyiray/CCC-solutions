@@ -831,6 +831,9 @@
     <ClCompile Include="CCC %2717 S4 - Minimum Cost Flow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2704 J5 - Fractals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
