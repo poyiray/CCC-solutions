@@ -1,41 +1,49 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long
+const int N = 1e5 + 10;
 struct node
 {
-	ll x, y;
+	int x, y;
 	bool operator<(const node& n) const
 	{
-		return y < n.y;
+		if (x == n.x) return y < n.y;
+		return x < n.x;
 	}
 };
-const int N = 1e5 + 10;
-ll L, n, res;
 node a[N];
+vector<node> b;
+int l, n, vis[N], res;
 
 int main()
 {
-	cin >> L >> n;
-	a[n + 1].x = a[n + 1].y = L;
+	cin >> l >> n;
+	for (int i = 1; i <= n; i++) cin >> a[i].x >> a[i].y;
+	
+	sort(a + 1, a + n + 1);
+	b.push_back({ 0,0 });
 	for (int i = 1; i <= n; i++)
 	{
-		cin >> a[i].x >> a[i].y;
-		if (a[i].x == 0 && a[i].y == L) { cout << 0; return 0; };
-	}
-	sort(a + 1, a + n + 1);
-	for (int i = 1; i <= n + 1; i++)
-	{
-		if ((a[i].x >= a[i - 1].x && a[i].x <= a[i - 1].y) || (a[i].x >= a[i + 1].x && a[i].x <= a[i + 1].y)) continue;
-		int l = -1, r = i;
-		while (l + 1 != r)
+		if (vis[i]) continue;
+		int x = a[i].x, y = a[i].y;
+		for (int j = i + 1; j <= n; j++)
 		{
-			int mid = (l + r) / 2;
-			if (a[mid].y < a[i].x) l = mid;
-			else r = mid;
+			if (min(a[j].y, y) >= max(a[j].x, x))
+			{
+				y = max(y, a[j].y);
+				x = min(x, a[j].x);
+				vis[j] = 1;
+			}
 		}
-		res = max(res, a[i].x - a[l].y);
+		b.push_back({ x, y });
+	}
+	if (b.back().y != l) b.push_back({ l,l });
+	sort(b.begin(), b.end());
+	for (int i = 1; i < b.size(); i++)
+	{
+		res = max(res, b[i].x - b[i - 1].y);
 	}
 	cout << res;
+
 	return 0;
 }
