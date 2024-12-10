@@ -834,6 +834,9 @@
     <ClCompile Include="CCC %2704 J5 - Fractals.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2722 S3 - Good Samples.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
