@@ -1,7 +1,7 @@
 ﻿#include <bits/stdc++.h>
 using namespace std;
 
-const int N = 100;
+const int N = 10000;
 int a[N][N], level, width, loc;
 struct rec
 {
@@ -60,6 +60,7 @@ void dfs(int x, rec r)
 
 int main()
 {
+	freopen("out.txt", "w", stdout);
 	ios::sync_with_stdio(false); cin.tie(nullptr);
 	cin >> level >> width >> loc;
 	dfs(0, { 0, 1, 0, width });
