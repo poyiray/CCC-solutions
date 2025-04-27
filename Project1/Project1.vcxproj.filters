@@ -837,6 +837,12 @@
     <ClCompile Include="CCC %2722 S3 - Good Samples.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CCC %2720 S3 - Searching for Strings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCC %2719 S5 - Triangle The Data Structure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
